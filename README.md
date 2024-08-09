@@ -1,0 +1,2 @@
+# Hover-Automate
+Automate cursor
