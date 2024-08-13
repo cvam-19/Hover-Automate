@@ -37,12 +37,12 @@ If the uninstallation is successful, the shortcut will disappear from the menu.
 Cleanup:
 Once successful with the above steps, delete the folder.
 
-### *Disclaimer*
-
-This software is provided solely for educational purposes.
-As the developer, I explicitly disclaim any responsibility for any unexpected or adverse effects on your system resulting from its use.
-While I encourage learning and experimentation, I recommend exercising caution and using this software wisely.
-Ultimately, you, the user, are entirely responsible for how you utilize this software in any scenario or context.
-
-The code is unencumbered by copyright regarding the imported entities, they might have their own individual copyright regulations;
-feel free to share, modify, or adapt it as you see fit.
+> ### *Disclaimer*
+>
+> This software is provided solely for educational purposes.
+> As the developer, **I explicitly disclaim any responsibility for any unexpected or adverse effects on your system resulting from its use**.
+> While I encourage learning and experimentation, I recommend exercising caution and using this software wisely.
+> Ultimately, you, **the user, are entirely responsible for how you utilize this software in any scenario or context**.
+>
+> The code is unencumbered by copyright regarding the imported entities, they might have their own individual copyright regulations;
+> feel free to share, modify, or adapt it as you see fit.
