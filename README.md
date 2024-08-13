@@ -1,4 +1,6 @@
 # Hover-Automate
+![](Resources/cursor-hover.256x220.ico)
+
 Automate cursor (For Windows)
 Move cursor at every 4 minutes of interval
 
