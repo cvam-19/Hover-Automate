@@ -85,8 +85,8 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-cp .\Resources\unidat0.dat .
-mv .\unidat0.dat .\Uninstall.bat
+copy .\Resources\unidat0.dat .
+move .\unidat0.dat .\Uninstall.bat
 if %errorlevel% neq 0 (
     del unidat0.dat
 )

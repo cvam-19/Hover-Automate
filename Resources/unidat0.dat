@@ -7,6 +7,10 @@ echo ################### Hover: Automate Cursor ###################
 .\env\Scripts\python.exe .\Lib\uninstall.py
 rmdir /s /q env
 rmdir /s /q Lib\__pycache__
+rmdir /s /q Lib\Log
+
 echo Uninstallation complete
 
 pause
+color 7
+del Uninstall.bat
