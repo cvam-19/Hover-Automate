@@ -23,8 +23,5 @@ class _Uninstall:
     __SHORTCUT_FILE = "\\".join([__ABSOLUTE_PATH, "Hover.lnk"])
     
     def __init__(self) -> None:
-        """Uninstall the program"""
+        """Remove Shortcut"""
         rmfile(self.__SHORTCUT_FILE)
-
-if __name__ == "__main__":
-    _Uninstall()
