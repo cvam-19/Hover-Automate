@@ -1,0 +1,4 @@
+Lib/Log/
+Lib/__pycache__
+env/
+Uninstall.bat

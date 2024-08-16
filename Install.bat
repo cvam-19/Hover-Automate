@@ -44,6 +44,20 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
+:: Open agreement program
+.\env\Scripts\python.exe .\Lib\agreement_page.py
+if %errorlevel% neq 0 (
+    echo Error while opening agreement.
+    echo Reverting ---
+    rmdir /s /q env
+    echo env removed.
+    echo To remove virtualenv package:
+    echo Exec: "python -m pip uninstall virtualenv"
+    echo Installation Failed!!!
+    pause
+    exit /b 1
+)
+
 .\env\Scripts\pip.exe install pyautogui winshell pywin32
 if %errorlevel% neq 0 (
     echo Error occurred while installing packages.
@@ -71,7 +85,14 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
+cp .\Resources\unidat0.dat .
+mv .\unidat0.dat .\Uninstall.bat
+if %errorlevel% neq 0 (
+    del unidat0.dat
+)
+
 echo All commands executed successfully.
+
 endlocal
 
 echo Installation complete
